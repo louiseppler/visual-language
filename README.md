@@ -2,6 +2,8 @@
 
 This folder contains all files for the visual programming language and the instructions to run the program. 
 
+View `maturarbeit.pdf` for the detailed description of this project.
+
 ## Installation
 
 To be able to write and compile code, the following programs are required.
