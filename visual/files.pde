@@ -36,8 +36,8 @@ class FileManager {
      //if(i >= 4) {isActive = false;}
      //if(i < 0) {isActive = false;}
      
-     if(i == 0) {loadData(".empty.txt");}
-     if(i == 1) {saveData(".data.txt");}
+     if(i == 0) {loadData("empty.txt");}
+     if(i == 1) {saveData("data.txt");}
      if(i == 2) {new FileManagerEditing("Save data to file ; Will override old file!",i); isActive = false;} //save
      if(i == 3) {new FileManagerEditing("Load data form file",i); isActive = false;} //load
      
@@ -46,11 +46,11 @@ class FileManager {
   
   void keyPressed() {
     if(key == 's' || key == 'S') {
-      saveData(".data.txt");
+      saveData("data.txt");
       isActive = false;
     }
     if(key == 'n' || key == 'N') {
-      loadData(".empty.txt");
+      loadData("empty.txt");
       isActive = false;
     }
     

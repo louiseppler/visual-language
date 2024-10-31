@@ -11,7 +11,7 @@ void setup() {
   size(800, 800);
   surface.setResizable(true);
 
-  loadData(".data.txt");
+  loadData("data.txt");
 }
 
 //gets called 60 times a second form Processing
@@ -91,7 +91,7 @@ void keyPressed() {
       container.compile = null;
     }
     else {
-     saveData(".data.txt");
+     saveData("data.txt");
      container.compile = new Compiler();
      container.compile.start(container.fields);
     }
